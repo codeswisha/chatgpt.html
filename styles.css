@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4fcff;
+  color: #073b4c;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #005377;
+  padding: 1em 0;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-list a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-list a:hover,
+.nav-list a:focus {
+  text-decoration: underline;
+  outline: 2px solid #ffffff;
+  outline-offset: 3px;
+}
+
+.hero, .about, .newsletter, .contact {
+  padding: 2em;
+  text-align: center;
+}
+
+.hero {
+  background: linear-gradient(to right, #0077b6, #00b4d8);
+  color: #fff;
+}
+
+.hero img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 1em;
+}
+
+.about img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 1em;
+  border-radius: 8px;
+}
+
+.newsletter form {
+  margin-top: 1em;
+}
+
+.newsletter input[type="email"] {
+  padding: 0.5em;
+  width: 250px;
+  max-width: 80%;
+  border: 2px solid #0077b6;
+  border-radius: 5px;
+}
+
+.newsletter button {
+  padding: 0.5em 1em;
+  background-color: #0077b6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-left: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.newsletter button:hover,
+.newsletter button:focus {
+  background-color: #064682;
+  outline: 2px solid #023e8a;
+}
+
+footer {
+  background-color: #005377;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
