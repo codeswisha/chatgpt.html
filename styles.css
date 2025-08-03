@@ -39,31 +39,32 @@ header {
 }
 
 .hero {
-  background: linear-gradient(to right, #0077b6, #00b4d8);
-  color: #fff;
+  background: linear-gradient(to right, #95abbc, #00b4d8);
+  color: #0d0d0d;
 }
 
-.hero img {
-  max-width: 100%;
+.hero-image {
+  max-width: 38%;
   height: auto;
-  border-radius: 10px;
-  margin-top: 1em;
+  margin-top: 1.5em;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
 
 .about img {
-  max-width: 100%;
+  max-width: 350px;
   height: auto;
-  margin-top: 1em;
+  margin-top: 0.7em;
   border-radius: 8px;
 }
 
 .newsletter form {
-  margin-top: 1em;
+  margin-top: 0.7em;
 }
 
 .newsletter input[type="email"] {
   padding: 0.5em;
-  width: 250px;
+  width: 80px;
   max-width: 80%;
   border: 2px solid #0077b6;
   border-radius: 5px;
@@ -72,7 +73,7 @@ header {
 .newsletter button {
   padding: 0.5em 1em;
   background-color: #0077b6;
-  color: white;
+  color: rgb(24, 23, 25);
   border: none;
   border-radius: 5px;
   margin-left: 1em;
@@ -88,7 +89,7 @@ header {
 
 footer {
   background-color: #005377;
-  color: white;
+  color: rgb(248, 242, 242);
   text-align: center;
   padding: 1em;
 }
