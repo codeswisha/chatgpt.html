@@ -6,6 +6,30 @@ body {
   line-height: 1.6;
 }
 
+button,
+input[type="submit"] {
+  padding: 0.6em 1.2em;
+  background-color: #df6315;         /* strong orange background */
+  color: #fff;                       /* white text for contrast */
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover,
+input[type="submit"]:hover {
+  background-color: #ce5509;         /* darker blue on hover */
+  transform: scale(1.03);            /* slight zoom on hover */
+}
+
+button:focus,
+input[type="submit"]:focus {
+  outline: 3px solid #df6f0d;        /* visible keyboard focus */
+  outline-offset: 3px;
+}
+
 header {
   background-color: #005377;
   padding: 1em 0;
